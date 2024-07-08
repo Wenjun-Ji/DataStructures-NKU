@@ -1,0 +1,489 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="源文件\OJ Practice">
+      <UniqueIdentifier>{4c47874b-74fe-4fac-845a-18506265da22}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\OJ Practice\01线性表">
+      <UniqueIdentifier>{f6a9249f-df5a-4bcc-a65d-431eebaa7d22}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\OJ Practice\02栈">
+      <UniqueIdentifier>{3ee6f799-46f4-47fa-8ff5-19e18326e881}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\DataStruct">
+      <UniqueIdentifier>{873d288d-43e6-4e2c-ab34-d625abbec03f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\OJ Practice\03队列">
+      <UniqueIdentifier>{46a38a45-63a0-48d3-8036-85cf79b6c4e0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\OJ Practice\04串">
+      <UniqueIdentifier>{a95ed622-7120-4c39-b59a-5b9898e52a54}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\DataStruct\01线性表">
+      <UniqueIdentifier>{8819a77d-5c0d-4e97-9da4-9c4ee69d0992}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\DataStruct\02栈">
+      <UniqueIdentifier>{cec49029-01c4-4b58-839b-600164b2cf7a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\DataStruct\03队列">
+      <UniqueIdentifier>{4b78819c-7529-48d4-9d6b-df453d087181}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\DataStruct\04串">
+      <UniqueIdentifier>{45a86c1e-14c6-465f-9b5a-b000ae9f4871}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\DataStruct\05矩阵">
+      <UniqueIdentifier>{9510cd34-387d-4609-8a48-c0c7e98cd136}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\DataStruct\06树">
+      <UniqueIdentifier>{2747a728-0c56-4889-9551-944e58ef5907}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\DataStruct\06树\二叉树">
+      <UniqueIdentifier>{6d297cfb-f15b-41fc-bfc2-6f93f36ed012}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\OJ Practice\05矩阵">
+      <UniqueIdentifier>{8985881c-b60e-4f5d-bd1d-04f0ab859633}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\DataStruct\06树\树和森林">
+      <UniqueIdentifier>{91fea9d9-a599-4e2b-a5cc-ef1490992f00}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\OJ Practice\06散列">
+      <UniqueIdentifier>{58bb5189-720a-43d2-89ec-51db0774335b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\OJ Practice\07树">
+      <UniqueIdentifier>{a0c8afbb-b4ff-4887-aae1-016c180c5d82}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\OJ Practice\08搜索树">
+      <UniqueIdentifier>{ee781860-d88c-4f8d-bfd7-c718985e33b9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\OJ Practice\09图">
+      <UniqueIdentifier>{8dabd4b0-fedd-4ff3-9d61-653e2199bd6f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\OJ Practice\10排序">
+      <UniqueIdentifier>{b3da50bd-a163-41e8-89b1-9f8f76032276}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\DataStruct\06树\搜索树">
+      <UniqueIdentifier>{d1563d9f-689a-4ac8-99b4-e67558216315}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\DataStruct\07图">
+      <UniqueIdentifier>{48ae89bd-3693-40eb-99cf-f5ba53c91e7e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\DataStruct\08查找">
+      <UniqueIdentifier>{2d08f33c-c976-4e80-834b-0429226ff584}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\DataStruct\07图\图的存储与遍历">
+      <UniqueIdentifier>{d3db70ba-e28d-42af-8483-44dababa0aeb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\DataStruct\07图\相关算法">
+      <UniqueIdentifier>{2d1599ae-15cd-41c6-8ad3-0429245b5278}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\DataStruct\07图\最短路径">
+      <UniqueIdentifier>{d46cae6e-95f1-4afd-b764-a08d03b012f0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\DataStruct\09排序">
+      <UniqueIdentifier>{a0d17964-f679-4bba-bb47-7485faa49605}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\DataStruct\09排序\插入排序">
+      <UniqueIdentifier>{c365425e-7a76-4039-8390-bff669a8fd92}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\DataStruct\09排序\交换排序">
+      <UniqueIdentifier>{e964f5db-a94a-4a1d-b1a7-b7858de5908d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\DataStruct\09排序\选择排序">
+      <UniqueIdentifier>{5f13ab17-0d68-483c-bfe1-2fa94efc5149}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\DataStruct\09排序\归并排序">
+      <UniqueIdentifier>{f2984106-3718-47a8-a378-9a4755df1301}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\DataStruct\09排序\基数排序">
+      <UniqueIdentifier>{6c6ee9f0-2339-43bc-9fbf-e8d7ffdaec6c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\复习">
+      <UniqueIdentifier>{e516d2bf-aeee-4fe3-b3dd-f87ecc1a3d20}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\复习\历年考题">
+      <UniqueIdentifier>{503fbbee-2848-4912-8ae6-2b6d3636722b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\复习\OJ练习题">
+      <UniqueIdentifier>{e514fad3-22d9-4e45-ab4d-c9fcb7313c25}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\复习\模拟题">
+      <UniqueIdentifier>{d2e74784-9178-44e3-b946-d93208daac5b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\复习\算法题">
+      <UniqueIdentifier>{ed365677-f32d-42a0-ab92-887caacf3f92}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="1_线性表_基数排序.cpp">
+      <Filter>源文件\OJ Practice\01线性表</Filter>
+    </None>
+    <None Include="1_线性表_有序线性表合并.cpp">
+      <Filter>源文件\OJ Practice\01线性表</Filter>
+    </None>
+    <None Include="1_线性表_约瑟夫环.cpp">
+      <Filter>源文件\OJ Practice\01线性表</Filter>
+    </None>
+    <None Include="2_栈_互斥字符串.cpp">
+      <Filter>源文件\OJ Practice\02栈</Filter>
+    </None>
+    <None Include="2_栈_Linux路径.cpp">
+      <Filter>源文件\OJ Practice\02栈</Filter>
+    </None>
+    <None Include="2_栈_表达式求值.cpp">
+      <Filter>源文件\OJ Practice\02栈</Filter>
+    </None>
+    <None Include="2_栈_表达式求值（重开版）.cpp">
+      <Filter>源文件\OJ Practice\02栈</Filter>
+    </None>
+    <None Include="3_队列_二元一次多项式求幂%28杨辉三角%29.cpp">
+      <Filter>源文件\OJ Practice\03队列</Filter>
+    </None>
+    <None Include="3_队列_二元一次多项式求幂.cpp">
+      <Filter>源文件\OJ Practice\03队列</Filter>
+    </None>
+    <None Include="3_队列_二元一次多项式求幂（大整数）.cpp">
+      <Filter>源文件\OJ Practice\03队列</Filter>
+    </None>
+    <None Include="4_串_字符串应用-实现KMP匹配算法.cpp">
+      <Filter>源文件\OJ Practice\04串</Filter>
+    </None>
+    <None Include="4_串_根据next数组推导模式字符串.cpp">
+      <Filter>源文件\OJ Practice\04串</Filter>
+    </None>
+    <None Include="1_线性表_单链表.cpp">
+      <Filter>源文件\DataStruct\01线性表</Filter>
+    </None>
+    <None Include="1_线性表_双链表.cpp">
+      <Filter>源文件\DataStruct\01线性表</Filter>
+    </None>
+    <None Include="1_线性表_循环链表.cpp">
+      <Filter>源文件\DataStruct\01线性表</Filter>
+    </None>
+    <None Include="2_栈_链栈.cpp">
+      <Filter>源文件\DataStruct\02栈</Filter>
+    </None>
+    <None Include="3_队列_链队列.cpp">
+      <Filter>源文件\DataStruct\03队列</Filter>
+    </None>
+    <None Include="3_队列_循环队列.cpp">
+      <Filter>源文件\DataStruct\03队列</Filter>
+    </None>
+    <None Include="4_串_BF模式匹配.cpp">
+      <Filter>源文件\DataStruct\04串</Filter>
+    </None>
+    <None Include="4_串_KMP模式匹配.cpp">
+      <Filter>源文件\DataStruct\04串</Filter>
+    </None>
+    <None Include="4_串_定长顺序存储.cpp">
+      <Filter>源文件\DataStruct\04串</Filter>
+    </None>
+    <None Include="4_串_堆分配存储.cpp">
+      <Filter>源文件\DataStruct\04串</Filter>
+    </None>
+    <None Include="4_串_KMP算法和BM算法性能的比较.cpp">
+      <Filter>源文件\OJ Practice\04串</Filter>
+    </None>
+    <None Include="5_矩阵_旋转的矩阵.cpp">
+      <Filter>源文件\OJ Practice\05矩阵</Filter>
+    </None>
+    <None Include="4_串_BM模式匹配（后缀长度构造）.cpp">
+      <Filter>源文件\DataStruct\04串</Filter>
+    </None>
+    <None Include="4_串_BM模式匹配（下标构造）.cpp">
+      <Filter>源文件\DataStruct\04串</Filter>
+    </None>
+    <None Include="6_树_二叉树_顺序存储.cpp">
+      <Filter>源文件\DataStruct\06树\二叉树</Filter>
+    </None>
+    <None Include="6_树_二叉树_链式存储.cpp">
+      <Filter>源文件\DataStruct\06树\二叉树</Filter>
+    </None>
+    <None Include="5_矩阵_奇偶矩阵.cpp">
+      <Filter>源文件\OJ Practice\05矩阵</Filter>
+    </None>
+    <None Include="5_矩阵_矩阵的压缩存储_稀疏矩阵.cpp">
+      <Filter>源文件\DataStruct\05矩阵</Filter>
+    </None>
+    <None Include="5_矩阵_三元组表示的稀疏矩阵的乘法运算.cpp">
+      <Filter>源文件\OJ Practice\05矩阵</Filter>
+    </None>
+    <None Include="6_树_线索二叉树_中序线索二叉树.cpp">
+      <Filter>源文件\DataStruct\06树\二叉树</Filter>
+    </None>
+    <None Include="6_树_线索二叉树_先序线索二叉树.cpp">
+      <Filter>源文件\DataStruct\06树\二叉树</Filter>
+    </None>
+    <None Include="6_树_树的存储结构_孩子表示法.cpp">
+      <Filter>源文件\DataStruct\06树\树和森林</Filter>
+    </None>
+    <None Include="6_树_树的存储结构_孩子兄弟表示法.cpp">
+      <Filter>源文件\DataStruct\06树\树和森林</Filter>
+    </None>
+    <None Include="6_树_树的存储结构_双亲表示法.cpp">
+      <Filter>源文件\DataStruct\06树\树和森林</Filter>
+    </None>
+    <None Include="6_树_树、森林与二叉树的转换.cpp">
+      <Filter>源文件\DataStruct\06树\树和森林</Filter>
+    </None>
+    <None Include="6_树_树和森林的遍历.cpp">
+      <Filter>源文件\DataStruct\06树\树和森林</Filter>
+    </None>
+    <None Include="6_树_线索二叉树_后序线索二叉树.cpp">
+      <Filter>源文件\DataStruct\06树\二叉树</Filter>
+    </None>
+    <None Include="6_树_二叉树的应用_哈夫曼树和哈夫曼编码.cpp">
+      <Filter>源文件\DataStruct\06树\二叉树</Filter>
+    </None>
+    <None Include="7_树_完全二叉树的先序遍历.cpp">
+      <Filter>源文件\OJ Practice\07树</Filter>
+    </None>
+    <None Include="7_树_判断是否为堆-堆整理.cpp">
+      <Filter>源文件\OJ Practice\07树</Filter>
+    </None>
+    <None Include="7_树_哈夫曼树A.cpp">
+      <Filter>源文件\OJ Practice\07树</Filter>
+    </None>
+    <None Include="7_树_二叉树遍历及二叉树高度.cpp">
+      <Filter>源文件\OJ Practice\07树</Filter>
+    </None>
+    <None Include="创建AVL树并判断是否为完全二叉树.cpp">
+      <Filter>源文件\OJ Practice\08搜索树</Filter>
+    </None>
+    <None Include="7_图_最短路径_BFS算法求解单源最短路径.cpp">
+      <Filter>源文件\DataStruct\07图\最短路径</Filter>
+    </None>
+    <None Include="7_图_图的遍历_广度优先遍历_.cpp">
+      <Filter>源文件\DataStruct\07图\图的存储与遍历</Filter>
+    </None>
+    <None Include="7_图_图的遍历_深度优先遍历.cpp">
+      <Filter>源文件\DataStruct\07图\图的存储与遍历</Filter>
+    </None>
+    <None Include="7_图_图的存储与基本操作_邻接表法.cpp">
+      <Filter>源文件\DataStruct\07图\图的存储与遍历</Filter>
+    </None>
+    <None Include="7_图_图的存储与基本操作_邻接矩阵法.cpp">
+      <Filter>源文件\DataStruct\07图\图的存储与遍历</Filter>
+    </None>
+    <None Include="7_图_最短路径_Dijkstra算法求解单源最短路径.cpp">
+      <Filter>源文件\DataStruct\07图\最短路径</Filter>
+    </None>
+    <None Include="7_图_最短路径_Floyd算法求解各顶点之间最短路径.cpp">
+      <Filter>源文件\DataStruct\07图\最短路径</Filter>
+    </None>
+    <None Include="7_图_相关算法_Prim算法求最小生成树.cpp">
+      <Filter>源文件\DataStruct\07图\相关算法</Filter>
+    </None>
+    <None Include="7_图_相关算法_Kruskal算法求最小生成树.cpp">
+      <Filter>源文件\DataStruct\07图\相关算法</Filter>
+    </None>
+    <None Include="创建RB树.cpp">
+      <Filter>源文件\OJ Practice\08搜索树</Filter>
+    </None>
+    <None Include="B树（示例）.cpp">
+      <Filter>源文件\DataStruct\06树\搜索树</Filter>
+    </None>
+    <None Include="村庄是否联通.cpp">
+      <Filter>源文件\OJ Practice\09图</Filter>
+    </None>
+    <None Include="6_树_搜索树_二叉搜索树.cpp">
+      <Filter>源文件\DataStruct\06树\搜索树</Filter>
+    </None>
+    <None Include="6_树_搜索树_B树、B+树.cpp">
+      <Filter>源文件\DataStruct\06树\搜索树</Filter>
+    </None>
+    <None Include="6_树_搜索树_AVLTree%28非递归%29.cpp">
+      <Filter>源文件\DataStruct\06树\搜索树</Filter>
+    </None>
+    <None Include="9_排序_交换排序_冒泡排序.cpp">
+      <Filter>源文件\DataStruct\09排序\交换排序</Filter>
+    </None>
+    <None Include="9_排序_交换排序_快速排序.cpp">
+      <Filter>源文件\DataStruct\09排序\交换排序</Filter>
+    </None>
+    <None Include="9_排序_插入排序_折半插入排序.cpp">
+      <Filter>源文件\DataStruct\09排序\插入排序</Filter>
+    </None>
+    <None Include="9_排序_插入排序_直接插入排序.cpp">
+      <Filter>源文件\DataStruct\09排序\插入排序</Filter>
+    </None>
+    <None Include="9_排序_插入排序_希尔排序.cpp">
+      <Filter>源文件\DataStruct\09排序\插入排序</Filter>
+    </None>
+    <None Include="9_排序_选择排序_简单选择排序.cpp">
+      <Filter>源文件\DataStruct\09排序\选择排序</Filter>
+    </None>
+    <None Include="9_排序_选择排序_堆排序.cpp">
+      <Filter>源文件\DataStruct\09排序\选择排序</Filter>
+    </None>
+    <None Include="9_排序_基数排序_基数排序.cpp">
+      <Filter>源文件\DataStruct\09排序\基数排序</Filter>
+    </None>
+    <None Include="9_排序_归并排序_归并排序.cpp">
+      <Filter>源文件\DataStruct\09排序\归并排序</Filter>
+    </None>
+    <None Include="消除连通图多余的边.cpp">
+      <Filter>源文件\OJ Practice\09图</Filter>
+    </None>
+    <None Include="ds-快速排序算法.cpp">
+      <Filter>源文件\OJ Practice\10排序</Filter>
+    </None>
+    <None Include="判断栈混洗.cpp">
+      <Filter>源文件\OJ Practice\02栈</Filter>
+    </None>
+    <None Include="ds-多源最短路径.cpp">
+      <Filter>源文件\OJ Practice\09图</Filter>
+    </None>
+    <None Include="7_图_相关算法_关键路径.cpp">
+      <Filter>源文件\DataStruct\07图\相关算法</Filter>
+    </None>
+    <None Include="Dijkstra单源最短路径.cpp">
+      <Filter>源文件\OJ Practice\09图</Filter>
+    </None>
+    <None Include="ds-工程最短消耗.cpp">
+      <Filter>源文件\OJ Practice\09图</Filter>
+    </None>
+    <None Include="ds-希尔排序的间隔.cpp">
+      <Filter>源文件\OJ Practice\10排序</Filter>
+    </None>
+    <None Include="ds-判断排序方法.cpp">
+      <Filter>源文件\OJ Practice\10排序</Filter>
+    </None>
+    <None Include="哈夫曼树.cpp">
+      <Filter>源文件\复习\模拟题</Filter>
+    </None>
+    <None Include="符号配对.cpp">
+      <Filter>源文件\复习\历年考题</Filter>
+    </None>
+    <None Include="判断是否为树.cpp">
+      <Filter>源文件\复习\历年考题</Filter>
+    </None>
+    <None Include="由先序求中序.cpp">
+      <Filter>源文件\复习\历年考题</Filter>
+    </None>
+    <None Include="DFS判断是否有回路.cpp">
+      <Filter>源文件\复习</Filter>
+    </None>
+    <None Include="拓扑排序判断是否有回路.cpp">
+      <Filter>源文件\复习</Filter>
+    </None>
+    <None Include="并查集判断是否有回路.cpp">
+      <Filter>源文件\复习</Filter>
+    </None>
+    <None Include="进制转换.cpp">
+      <Filter>源文件\复习\模拟题</Filter>
+    </None>
+    <None Include="字符串匹配.cpp">
+      <Filter>源文件\复习\模拟题</Filter>
+    </None>
+    <None Include="字符串匹配（动态规划）.cpp">
+      <Filter>源文件\复习\模拟题</Filter>
+    </None>
+    <None Include="LCA算法.cpp">
+      <Filter>源文件\复习\历年考题</Filter>
+    </None>
+    <None Include="堆中的路径问题.cpp">
+      <Filter>源文件\复习\历年考题</Filter>
+    </None>
+    <None Include="根据next数组推导模式字符串.cpp">
+      <Filter>源文件\复习\OJ练习题</Filter>
+    </None>
+    <None Include="字符串应用-实现KMP匹配算法.cpp">
+      <Filter>源文件\复习\OJ练习题</Filter>
+    </None>
+    <None Include="表达式求值.cpp">
+      <Filter>源文件\复习\OJ练习题</Filter>
+    </None>
+    <None Include="二叉树遍历及二叉树高度.cpp">
+      <Filter>源文件\复习\OJ练习题</Filter>
+    </None>
+    <None Include="求整数最大间隔-性能.cpp">
+      <Filter>源文件\复习\OJ练习题</Filter>
+    </None>
+    <None Include="欧拉回路.cpp">
+      <Filter>源文件</Filter>
+    </None>
+    <None Include="ds-基数排序.cpp">
+      <Filter>源文件\复习\OJ练习题</Filter>
+    </None>
+    <None Include="二元一次多项式求幂.cpp">
+      <Filter>源文件\复习\OJ练习题</Filter>
+    </None>
+    <None Include="test.cpp">
+      <Filter>源文件\复习</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="1_线性表_顺序表.cpp">
+      <Filter>源文件\DataStruct\01线性表</Filter>
+    </ClCompile>
+    <ClCompile Include="2_栈_顺序栈.cpp">
+      <Filter>源文件\DataStruct\02栈</Filter>
+    </ClCompile>
+    <ClCompile Include="3_队列_顺序队列.cpp">
+      <Filter>源文件\DataStruct\03队列</Filter>
+    </ClCompile>
+    <ClCompile Include="5_矩阵_矩阵的压缩存储_对称矩阵.cpp">
+      <Filter>源文件\DataStruct\05矩阵</Filter>
+    </ClCompile>
+    <ClCompile Include="5_矩阵_矩阵的压缩存储_对角矩阵.cpp">
+      <Filter>源文件\DataStruct\05矩阵</Filter>
+    </ClCompile>
+    <ClCompile Include="5_矩阵_矩阵的压缩存储_三对角矩阵.cpp">
+      <Filter>源文件\DataStruct\05矩阵</Filter>
+    </ClCompile>
+    <ClCompile Include="5_矩阵_矩阵的压缩存储_三角矩阵.cpp">
+      <Filter>源文件\DataStruct\05矩阵</Filter>
+    </ClCompile>
+    <ClCompile Include="5_矩阵_自定义矩阵（一维、二维）.cpp">
+      <Filter>源文件\DataStruct\05矩阵</Filter>
+    </ClCompile>
+    <ClCompile Include="6_树_二叉树的遍历_先中后层序遍历.cpp">
+      <Filter>源文件\DataStruct\06树\二叉树</Filter>
+    </ClCompile>
+    <ClCompile Include="6_散列_最大间隔.cpp">
+      <Filter>源文件\OJ Practice\06散列</Filter>
+    </ClCompile>
+    <ClCompile Include="6_树_搜索树_RBTree.cpp">
+      <Filter>源文件\DataStruct\06树\搜索树</Filter>
+    </ClCompile>
+    <ClCompile Include="7_图_相关算法_Fleury算法判断欧拉图.cpp">
+      <Filter>源文件\DataStruct\07图\相关算法</Filter>
+    </ClCompile>
+    <ClCompile Include="7_图_相关算法_Hierholzer算法判断欧拉图.cpp">
+      <Filter>源文件\DataStruct\07图\相关算法</Filter>
+    </ClCompile>
+    <ClCompile Include="8_查找_顺序查找和折半查找_分块查找.cpp">
+      <Filter>源文件\DataStruct\08查找</Filter>
+    </ClCompile>
+    <ClCompile Include="8_查找_顺序查找和折半查找_顺序查找.cpp">
+      <Filter>源文件\DataStruct\08查找</Filter>
+    </ClCompile>
+    <ClCompile Include="8_查找_顺序查找和折半查找_折半查找.cpp">
+      <Filter>源文件\DataStruct\08查找</Filter>
+    </ClCompile>
+    <ClCompile Include="是否短路.cpp">
+      <Filter>源文件\复习\模拟题</Filter>
+    </ClCompile>
+    <ClCompile Include="散列表的应用.cpp">
+      <Filter>源文件\复习\历年考题</Filter>
+    </ClCompile>
+    <ClCompile Include="完全二叉树的先序遍历.cpp">
+      <Filter>源文件\复习\OJ练习题</Filter>
+    </ClCompile>
+    <ClCompile Include="6_树_二叉树的遍历_先中后层序遍历(非递归).cpp">
+      <Filter>源文件\DataStruct\06树\二叉树</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

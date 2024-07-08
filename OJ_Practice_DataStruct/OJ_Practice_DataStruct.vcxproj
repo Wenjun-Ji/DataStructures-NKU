@@ -1,0 +1,253 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>17.0</VCProjectVersion>
+    <Keyword>Win32Proj</Keyword>
+    <ProjectGuid>{aa5db799-cc9a-4474-92b4-57002d0d6001}</ProjectGuid>
+    <RootNamespace>OJPracticeDataStruct</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="6_散列_最大间隔.cpp" />
+    <None Include="字符串应用-实现KMP匹配算法.cpp" />
+    <None Include="ds-基数排序.cpp" />
+    <None Include="二叉树遍历及二叉树高度.cpp" />
+    <ClCompile Include="6_树_二叉树的遍历_先中后层序遍历(非递归).cpp" />
+    <None Include="test.cpp" />
+    <ClCompile Include="完全二叉树的先序遍历.cpp" />
+    <None Include="求整数最大间隔-性能.cpp" />
+    <None Include="二元一次多项式求幂.cpp" />
+    <None Include="表达式求值.cpp" />
+    <None Include="根据next数组推导模式字符串.cpp" />
+    <None Include="哈夫曼树.cpp" />
+    <None Include="DFS判断是否有回路.cpp" />
+    <None Include="LCA算法.cpp" />
+    <None Include="堆中的路径问题.cpp" />
+    <None Include="字符串匹配.cpp" />
+    <None Include="并查集判断是否有回路.cpp" />
+    <None Include="拓扑排序判断是否有回路.cpp" />
+    <None Include="字符串匹配（动态规划）.cpp" />
+    <ClCompile Include="散列表的应用.cpp" />
+    <ClCompile Include="是否短路.cpp" />
+    <None Include="进制转换.cpp" />
+    <None Include="判断是否为树.cpp" />
+    <None Include="由先序求中序.cpp" />
+    <None Include="符号配对.cpp" />
+    <None Include="欧拉回路.cpp" />
+    <None Include="7_树_二叉树遍历及二叉树高度.cpp" />
+    <None Include="6_树_搜索树_AVLTree%28非递归%29.cpp" />
+    <None Include="6_树_搜索树_B树、B+树.cpp" />
+    <None Include="7_图_最短路径_Dijkstra算法求解单源最短路径.cpp" />
+    <None Include="7_图_最短路径_Floyd算法求解各顶点之间最短路径.cpp" />
+    <ClCompile Include="7_图_相关算法_Fleury算法判断欧拉图.cpp" />
+    <ClCompile Include="7_图_相关算法_Hierholzer算法判断欧拉图.cpp" />
+    <None Include="7_图_相关算法_Kruskal算法求最小生成树.cpp" />
+    <None Include="7_图_相关算法_Prim算法求最小生成树.cpp" />
+    <None Include="7_图_相关算法_关键路径.cpp" />
+    <ClCompile Include="8_查找_顺序查找和折半查找_分块查找.cpp" />
+    <ClCompile Include="8_查找_顺序查找和折半查找_折半查找.cpp" />
+    <ClCompile Include="8_查找_顺序查找和折半查找_顺序查找.cpp" />
+    <None Include="9_排序_交换排序_冒泡排序.cpp" />
+    <None Include="9_排序_交换排序_快速排序.cpp" />
+    <None Include="9_排序_基数排序_基数排序.cpp" />
+    <None Include="9_排序_归并排序_归并排序.cpp" />
+    <None Include="9_排序_插入排序_希尔排序.cpp" />
+    <None Include="9_排序_插入排序_折半插入排序.cpp" />
+    <None Include="9_排序_选择排序_堆排序.cpp" />
+    <None Include="9_排序_选择排序_简单选择排序.cpp" />
+    <None Include="B树（示例）.cpp" />
+    <None Include="ds-判断排序方法.cpp" />
+    <None Include="Dijkstra单源最短路径.cpp" />
+    <None Include="ds-多源最短路径.cpp" />
+    <None Include="ds-工程最短消耗.cpp" />
+    <None Include="ds-希尔排序的间隔.cpp" />
+    <None Include="ds-快速排序算法.cpp" />
+    <None Include="创建AVL树并判断是否为完全二叉树.cpp" />
+    <ClCompile Include="6_树_搜索树_RBTree.cpp" />
+    <None Include="创建RB树.cpp" />
+    <None Include="6_树_搜索树_二叉搜索树.cpp" />
+    <None Include="判断栈混洗.cpp" />
+    <None Include="9_排序_插入排序_直接插入排序.cpp" />
+    <None Include="村庄是否联通.cpp" />
+    <None Include="消除连通图多余的边.cpp" />
+    <None Include="7_树_哈夫曼树A.cpp" />
+    <None Include="7_树_完全二叉树的先序遍历.cpp" />
+    <None Include="7_树_判断是否为堆-堆整理.cpp" />
+    <None Include="7_图_图的遍历_广度优先遍历_.cpp" />
+    <None Include="7_图_最短路径_BFS算法求解单源最短路径.cpp" />
+    <None Include="7_图_图的遍历_深度优先遍历.cpp" />
+    <None Include="7_图_图的存储与基本操作_邻接矩阵法.cpp" />
+    <None Include="7_图_图的存储与基本操作_邻接表法.cpp" />
+    <None Include="5_矩阵_奇偶矩阵.cpp" />
+    <None Include="4_串_KMP算法和BM算法性能的比较.cpp" />
+    <None Include="5_矩阵_旋转的矩阵.cpp" />
+    <None Include="5_矩阵_三元组表示的稀疏矩阵的乘法运算.cpp" />
+    <ClCompile Include="5_矩阵_矩阵的压缩存储_三对角矩阵.cpp" />
+    <ClCompile Include="5_矩阵_矩阵的压缩存储_三角矩阵.cpp" />
+    <ClCompile Include="5_矩阵_矩阵的压缩存储_对称矩阵.cpp" />
+    <ClCompile Include="5_矩阵_矩阵的压缩存储_对角矩阵.cpp" />
+    <None Include="5_矩阵_矩阵的压缩存储_稀疏矩阵.cpp" />
+    <ClCompile Include="5_矩阵_自定义矩阵（一维、二维）.cpp" />
+    <None Include="6_树_二叉树_链式存储.cpp" />
+    <None Include="6_树_二叉树_顺序存储.cpp" />
+    <None Include="6_树_二叉树的应用_哈夫曼树和哈夫曼编码.cpp" />
+    <ClCompile Include="6_树_二叉树的遍历_先中后层序遍历.cpp" />
+    <None Include="6_树_线索二叉树_中序线索二叉树.cpp" />
+    <None Include="6_树_线索二叉树_先序线索二叉树.cpp" />
+    <None Include="6_树_树、森林与二叉树的转换.cpp" />
+    <None Include="6_树_树和森林的遍历.cpp" />
+    <None Include="6_树_树的存储结构_双亲表示法.cpp" />
+    <None Include="6_树_树的存储结构_孩子兄弟表示法.cpp" />
+    <None Include="6_树_树的存储结构_孩子表示法.cpp" />
+    <None Include="6_树_线索二叉树_后序线索二叉树.cpp" />
+    <None Include="4_串_字符串应用-实现KMP匹配算法.cpp" />
+    <None Include="3_队列_二元一次多项式求幂（大整数）.cpp" />
+    <None Include="4_串_根据next数组推导模式字符串.cpp" />
+    <None Include="4_串_BM模式匹配（后缀长度构造）.cpp" />
+    <None Include="4_串_BF模式匹配.cpp" />
+    <None Include="4_串_KMP模式匹配.cpp" />
+    <None Include="4_串_堆分配存储.cpp" />
+    <None Include="4_串_定长顺序存储.cpp" />
+    <None Include="3_队列_二元一次多项式求幂.cpp" />
+    <None Include="3_队列_二元一次多项式求幂%28杨辉三角%29.cpp" />
+    <None Include="2_栈_表达式求值（重开版）.cpp" />
+    <None Include="1_线性表_单链表.cpp" />
+    <None Include="1_线性表_双链表.cpp" />
+    <None Include="1_线性表_循环链表.cpp" />
+    <ClCompile Include="1_线性表_顺序表.cpp" />
+    <None Include="3_队列_循环队列.cpp" />
+    <None Include="3_队列_链队列.cpp" />
+    <ClCompile Include="3_队列_顺序队列.cpp" />
+    <None Include="4_串_BM模式匹配（下标构造）.cpp" />
+    <None Include="2_栈_Linux路径.cpp" />
+    <None Include="2_栈_表达式求值.cpp" />
+    <None Include="2_栈_互斥字符串.cpp" />
+    <None Include="2_栈_链栈.cpp" />
+    <ClCompile Include="2_栈_顺序栈.cpp" />
+    <None Include="1_线性表_基数排序.cpp" />
+    <None Include="1_线性表_有序线性表合并.cpp" />
+    <None Include="1_线性表_约瑟夫环.cpp" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
